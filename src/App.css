@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+select{
+  margin: 2rem 0;
+  padding: 5px;
+  background-color: rgb(235, 235, 235);
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.controls input, .controls select, .controls button {
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 2px solid #858080;
+  background-color: #fff6a5;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+.pagination {
+  margin: 20px 0;
+}
+
+.statistics, .barchart, .piechart {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.statistics {
+  background-color: #ffeb3b;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.barchart, .piechart {
+  background-color: #e0f7fa;
+  padding: 20px;
+  border-radius: 10px;
+}
+.transactionTableContainer{
+ word-break: normal; 
+ /* text-wrap:wrap; */
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
